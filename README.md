@@ -32,4 +32,16 @@ microServicioCuentas/
 └── pom.xml → Configuración de Maven
 
 
+## Configuración del entorno
 
+1. Clonar el repositorio:
+
+   ```bash
+   git clone https://github.com/TU_USUARIO/microServicioCuentas.git
+   cd microServicioCuentas
+
+2.Configurar la conexión a Oracle en el archivo application.properties:
+
+3.Compilar y ejecutar el proyecto
+mvn clean install
+mvn spring-boot:run
