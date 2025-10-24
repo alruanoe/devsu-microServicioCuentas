@@ -3,6 +3,11 @@
 Este proyecto es un **microservicio Java Spring Boot** que gestiona la información de cuentas y movimientos de cuentas bancarias de clientes.
 Forma parte del sistema de ejemplo.
 ---
+##Autora
+Ana Luisa Ruano Espina
+annaruanoespina@gmail.com
+Ingeniera en Sistemas - Guatemala
+
 ##Tecnologías Utilizadas
 
 - **Java 11**
@@ -42,23 +47,21 @@ microServicioCuentas/
 
 2.Configurar la conexión a Oracle en el archivo application.properties:
 
-3.Compilar y ejecutar el proyecto
+3.Ejecutar pruebas con
+```bash
+mvn test
+
+4.Compilar y ejecutar el proyecto
 ```bash
 mvn clean install
 mvn spring-boot:run
 
-4.Ejecutar pruebas con
-```bash
-mvn test
 
 
+5.Levantar Swagger
 ##Documentación Swagger
 
 Una vez ejecutado el microservicio, puedes acceder a la documentación interactiva en:
 
  http://localhost:8082/swagger-ui.html
 
-##Autora
-Ana Luisa Ruano Espina
-annaruanoespina@gmail.com
-Ingeniera en Sistemas - Guatemala
