@@ -43,5 +43,6 @@ microServicioCuentas/
 2.Configurar la conexión a Oracle en el archivo application.properties:
 
 3.Compilar y ejecutar el proyecto
+```bash
 mvn clean install
 mvn spring-boot:run
