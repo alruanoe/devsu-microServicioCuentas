@@ -2,7 +2,7 @@
 
 Este proyecto es un **microservicio Java Spring Boot** que gestiona la información de cuentas y movimientos de cuentas bancarias de clientes.
 Forma parte del sistema de ejemplo.
----
+
 ##Autora
 Ana Luisa Ruano Espina
 annaruanoespina@gmail.com
