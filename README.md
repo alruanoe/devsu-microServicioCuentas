@@ -46,3 +46,19 @@ microServicioCuentas/
 ```bash
 mvn clean install
 mvn spring-boot:run
+
+4.Ejecutar pruebas con
+```bash
+mvn test
+
+
+##Documentación Swagger
+
+Una vez ejecutado el microservicio, puedes acceder a la documentación interactiva en:
+
+ http://localhost:8082/swagger-ui.html
+
+##Autora
+Ana Luisa Ruano Espina
+annaruanoespina@gmail.com
+Ingeniera en Sistemas - Guatemala
