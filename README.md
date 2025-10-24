@@ -15,19 +15,21 @@ Forma parte del sistema de ejemplo.
 
 ##Estructura del proyecto
 
-microservicioCuentas/
-|
-|--src/
-| |--main/java/com/devsu/test/microservicionCuentas/
-| | |--controller/ -> controladores REST
-| | |--entity/ -> Entidades JPA (Cuenta, Movimiento)
-| | |--repository/ -> Interfaces JPA
-| | |--service/ -> Logica de negocio
-| | |--dto/ -> Clases de transferencia de datos (DTO)
-| |--main/resources/
-| | |--application.properites--> configuracion del proyecto
-| | |--reportes/--> archivos de los reportes .jasper y .jrxml
-| ----pom.xml--> configuracion de Maven
+microServicioCuentas/
+│
+├── src/
+│ ├── main/java/com/devsu/test/microservicioCuentas/
+│ │ ├── controller/ → Controladores REST
+│ │ ├── entity/ → Entidades JPA (Cuenta, Movimiento)
+│ │ ├── repository/ → Interfaces JPA
+│ │ ├── service/ → Lógica de negocio
+│ │ └── dto/ → Clases de transferencia de datos (DTO)
+│ └── main/resources/
+│ ├── application.properties → Configuración de conexión a Oracle
+│ ├── reportes/ → Archivos .jasper y .jrxml
+│ 
+│
+└── pom.xml → Configuración de Maven
 
 
 
