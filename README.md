@@ -42,7 +42,7 @@ microServicioCuentas/
 1. Clonar el repositorio:
 
    ```bash
-   git clone https://github.com/TU_USUARIO/microServicioCuentas.git
+   git clone https://github.com/alruanoe/devsu-microServicioCuentas.git
    cd microServicioCuentas
 
 2.Configurar la conexión a Oracle en el archivo application.properties:
