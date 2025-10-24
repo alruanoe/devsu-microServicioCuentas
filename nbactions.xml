@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-clean spring-boot:run</actionName>
+            <displayName>clean spring-boot:run</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>spring-boot:run</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-spring-boot:run</actionName>
+            <displayName>spring-boot:run</displayName>
+            <goals>
+                <goal>spring-boot:run</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-clean install -U</actionName>
+            <displayName>clean install -U</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>install</goal>
+                <goal>-U</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-clean package</actionName>
+            <displayName>clean package</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>package</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-clean test -Dtest=CuentaServiceUnitTest</actionName>
+            <displayName>clean test -Dtest=CuentaServiceUnitTest</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>test</goal>
+                <goal>-Dtest=CuentaServiceUnitTest</goal>
+            </goals>
+        </action>
+    </actions>
